@@ -43,5 +43,10 @@ body {
   padding: 20px;
   margin: 5px;
   width: 200px;
+  &.article-a{order: 1;}
+  &.article-b{order: 2;}
+  &.article-c{order: 3;}
+  &.article-d{order: 4;}
+  // esta propriedade é utilizada para definir a ordem em que os itens serão reinderizados.
 }
  
