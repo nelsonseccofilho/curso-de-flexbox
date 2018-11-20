@@ -1,9 +1,9 @@
-# Webpack Frontend Starterkit
+# Mini-curso de Flexobx | Material de apoio
 
-A lightweight foundation for your next webpack based frontend project.
+Neste mini-curso você trabalhará com o flexbox da mesma forma que trabalharia no seu dia a dia, npm, scss e todas as explicações detalhadas nos comentários.
 
 
-### Installation
+### Instalação
 
 ```
 npm install
@@ -23,8 +23,8 @@ npm run build
 
 ### Features:
 
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
+* Suporte ES6 via [babel] (https://babeljs.io/) (v7)
+* Suporte SASS via [sass-loader] (https://github.com/jtangelder/sass-loader)
+* Linting via [eslint-loader] (https://github.com/MoOx/eslint-loader)
 
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+Quando você executa `npm run build` usamos o [mini-css-extract-plugin] (https://github.com/webpack-contrib/mini-css-extract-plugin) para mover o css para um arquivo separado. O arquivo css é incluído na cabeça do `index.html`.
