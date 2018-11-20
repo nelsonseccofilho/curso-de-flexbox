@@ -2,23 +2,27 @@
 
 Neste mini-curso você trabalhará com o flexbox da mesma forma que trabalharia no seu dia a dia, npm, scss e todas as explicações detalhadas nos comentários.
 
+### Dependências
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+https://nodejs.org/en/download/
+https://yarnpkg.com/en/docs/install
 
 ### Instalação
 
 ```
-npm install
+npm install ou yarn install
 ```
 
 ### Start Dev Server
 
 ```
-npm start
+npm run start ou yarn start
 ```
 
 ### Build Prod Version
 
 ```
-npm run build
+npm run build ou yarn build
 ```
 
 ### Features:
