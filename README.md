@@ -4,7 +4,9 @@ Neste mini-curso você trabalhará com o flexbox da mesma forma que trabalharia 
 
 ### Dependências
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 https://nodejs.org/en/download/
+
 https://yarnpkg.com/en/docs/install
 
 ### Instalação
