@@ -8,7 +8,7 @@ body {
 
 .container{
   background-color: $container-color;
-  height: 200px;
+  height: 400px;
 
   display: flex;
   
@@ -31,7 +31,7 @@ body {
   /* flex-start | flex-end | center | baseline */
   // esta propriedade é utilizada para definir o alinhamento vertical
 
-  align-content: stretch;
+  align-content: flex-start;
   /* flex-start | flex-end | center | space-around | space-between */
   // esta propriedade é utilizada para definir o alinhamento vertical mesmo com a quebra de linha.
 
@@ -42,6 +42,32 @@ body {
   color: #fff;
   padding: 20px;
   margin: 5px;
-  width: 200px;
+  height: 30px;
+
+  // flex-grow: 1;
+  // esta propriedade é para definir quanto do espaço disponível no container flexível deve ser atribuído a esse item (o fator de crescimento flexível). Se todos os itens irmãos tiverem o mesmo fator de crescimento flex, todos os itens receberão a mesma parcela de espaço disponível, caso contrário, ele será distribuído de acordo com a proporção definida pelos diferentes fatores de crescimento flex. Para facilitar o entendimento do conceito do flex-grow pense em colunas.
+
+  // flex-shrink: 1;
+  // esta propriedade é para definiro fator de retração flexível de um item flexível. Se o tamanho dos itens flexíveis for maior que o do flex, os itens encolherão para caber de acordo com o flex-shrink. Para facilitar o entendimento do conceito do flex-grow pense em colunas assim como no flex-grow.
+
+  // flex-basis: 300px;
+  // esta propriedade é utilizada para definir o tamanho principal inicial de um item flexível. Ele define o tamanho da caixa, a menos que seja definido de outra forma com o dimensionamento de caixa.
+
+  flex: 1 1 300px;
+  // esta é a forma resumida de escrever as propriedades de forma encadeada, note que: "flex: flex-grow, flex-shrink, flex-basis;"
+  &.article-a{
+    // order: 1;
+    // esta propriedade é utilizada para definir a ordem em que os itens serão reinderizados.
+
+    // align-self: auto;
+    /* flex-start | flex-end | center | baseline | stretch */
+    // esta propriedade é utilizada para definir o alinhamento vertical de um item específico, quando o flex-container esta definido como row. Caso o flex-container esteja definido como column, o alinhamento individual será horizontal.
+
+    // flex-grow: 3;
+    flex-shrink: 3;
+  }
+  // &.article-b{order: 2;}
+  // &.article-c{order: 3;}
+  // &.article-d{order: 4;}
 }
  
