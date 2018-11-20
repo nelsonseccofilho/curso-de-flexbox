@@ -1,4 +1,4 @@
-# Mini-curso de Flexobx | Material de apoio
+# Mini-curso de Flexbox | Material de apoio
 
 Neste mini-curso você trabalhará com o flexbox da mesma forma que trabalharia no seu dia a dia, npm, scss e todas as explicações detalhadas nos comentários.
 
