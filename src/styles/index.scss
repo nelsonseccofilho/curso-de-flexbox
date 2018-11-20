@@ -1,5 +1,47 @@
-$body-color: blue;
+$body-color: #666;
+$container-color: #ccc;
+$item-color: #333;
 
 body {
   color: $body-color;
 }
+
+.container{
+  background-color: $container-color;
+  height: 200px;
+
+  display: flex;
+  
+  // flex-direction: row;
+  /* column | column-reverse | row-reverse */
+  // esta propriedade vai dizer se trabalharemos em colunas, linhas e será qual sua direção.
+
+  // flex-wrap: nowrap;
+  /* wrap | nowrap-reverse | wrap-reverse*/
+  // esta propriedade vai dizer se existirá ou não quebra de linha
+
+  flex-flow: row nowrap;
+  // esta propriedade é utilizada para definir os valores para flex-direction e flex-wrap de uma vez só.
+
+  justify-content: flex-start;
+  /* flex-end | center | space-around | space-between */
+  // esta propriedade é utilizada para definir o alinhamento horizontal
+
+  align-items: stretch;
+  /* flex-start | flex-end | center | baseline */
+  // esta propriedade é utilizada para definir o alinhamento vertical
+
+  align-content: stretch;
+  /* flex-start | flex-end | center | space-around | space-between */
+  // esta propriedade é utilizada para definir o alinhamento vertical mesmo com a quebra de linha.
+
+}
+
+.item{
+  background-color: $item-color;
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+  width: 200px;
+}
+ 
