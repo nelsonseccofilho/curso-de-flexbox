@@ -8,7 +8,7 @@ body {
 
 .container{
   background-color: $container-color;
-  height: 200px;
+  height: 400px;
 
   display: flex;
   
@@ -31,7 +31,7 @@ body {
   /* flex-start | flex-end | center | baseline */
   // esta propriedade é utilizada para definir o alinhamento vertical
 
-  align-content: stretch;
+  align-content: flex-start;
   /* flex-start | flex-end | center | space-around | space-between */
   // esta propriedade é utilizada para definir o alinhamento vertical mesmo com a quebra de linha.
 
@@ -42,11 +42,17 @@ body {
   color: #fff;
   padding: 20px;
   margin: 5px;
-  width: 200px;
-  &.article-a{order: 1;}
+  width: 30px;
+  height: 30px;
+  &.article-a{
+    order: 1;
+    // esta propriedade é utilizada para definir a ordem em que os itens serão reinderizados.
+    align-self: auto;
+    /* flex-start | flex-end | center | baseline | stretch */
+    // esta propriedade é utilizada para definir o alinhamento vertical de um item específico, quando o flex-container esta definido como row. Caso o flex-container esteja definido como column, o alinhamento individual será horizontal.
+  }
   &.article-b{order: 2;}
   &.article-c{order: 3;}
   &.article-d{order: 4;}
-  // esta propriedade é utilizada para definir a ordem em que os itens serão reinderizados.
 }
  
