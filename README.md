@@ -10,6 +10,9 @@ https://nodejs.org/en/download/
 https://yarnpkg.com/en/docs/install
 
 ### Instalação
+```
+cd ~/mini-curso-de-flexbox/
+```
 
 ```
 npm install ou yarn install
