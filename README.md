@@ -27,7 +27,7 @@ npm run start ou yarn start
 npm run build ou yarn build
 ```
 
-### Features:
+### Características:
 
 * Suporte ES6 via [babel] (https://babeljs.io/) (v7)
 * Suporte SASS via [sass-loader] (https://github.com/jtangelder/sass-loader)
